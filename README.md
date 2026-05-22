@@ -1,4 +1,5 @@
 # ➕ Programa de Suma en Python
+version 1.0.0
 
 Este es un programa básico desarrollado en Python que permite sumar dos números ingresados por el usuario desde el teclado.
 
@@ -35,4 +36,4 @@ https://www.python.org/
 1. Guarda el archivo con el nombre:
 
 ```bash
-suma.py
+app.py
