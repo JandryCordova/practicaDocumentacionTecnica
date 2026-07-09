@@ -1,11 +1,13 @@
-# Programa básico para sumar dos números
+def sumar(numero1, numero2):
+    return numero1 + numero2
 
-# Pedimos los números al usuario
-numero1 = float(input("Ingrese el primer número: "))
-numero2 = float(input("Ingrese el segundo número: "))
+try:
+    numero1 = float(input("Ingrese el primer número: "))
+    numero2 = float(input("Ingrese el segundo número: "))
 
-# Realizamos la suma
-suma = numero1 + numero2
+    resultado = sumar(numero1, numero2)
 
-# Mostramos el resultado
-print("La suma es:", suma)
+    print(f"La suma es: {resultado}")
+
+except ValueError:
+    print("Error: Debe ingresar únicamente números.")
